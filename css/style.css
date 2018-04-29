@@ -1,0 +1,370 @@
+body {
+	background: #eee;
+	margin: 0;
+}
+
+header {
+	margin-bottom: 10px;
+}
+
+.container {
+    padding: 0 200px;
+}
+
+.col {
+	float: left;
+	display: inline-block;
+}
+
+.col-2 {
+	width: 16.66%;
+}
+
+.col-3 {
+	width: 25%;
+}
+
+.col-4 {
+	width: 33.33%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+
+/*******
+header-part*****/
+
+.header-part {
+	background: #fff;
+	padding: 10px;
+}
+
+.username span {
+    padding-right: 42px;
+}
+
+.password span {
+    padding-right: 45px;
+}
+
+.input-field {
+	width: 89%;
+}
+
+/*********
+second-part*****/
+
+.second-section {
+	background: #fff;
+}
+
+.for-small-mobile {
+	display: none;
+}
+
+.second-part {
+	background: #fff;
+	margin-bottom: 10px;
+}
+
+.second-part-header {
+	margin: 10px;
+}
+
+.second-part-text {
+	margin: 10px;
+}
+
+.second-part-center {
+    padding-bottom: 43px;
+}
+
+/*********
+third-part******/
+
+.third-part {
+	background: #fff;
+}
+
+.bg-color {
+	background: #fff;
+    margin-bottom: 10px;
+}
+
+.for-small-mobile {
+	display: none;
+}
+
+.for-pc {
+	display: block;
+}
+
+.lorem-text {
+    padding: 45px 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.lorem-color-1 {
+	background: #673ab7bf;
+}
+
+.lorem-color-2 {
+	background: #03A9F4;
+}
+
+.lorem-color-3 {
+	background: #00bcd4;
+}
+
+/**********
+*******forth-part*/
+
+.forth-part {
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    padding: 61px;
+    background: #2196F3;
+    margin: 15px;
+}
+
+/********
+fifth-part****/
+
+.fifth-part {
+
+}
+
+.centered-text {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    margin: 10px;
+    background: #2196F3;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/*******
+**footer-part*/
+
+.footer-part {
+
+}
+
+.footer-left-text {
+    margin: 10px 0 10px 10px;
+    padding: 16px;
+    font-size: 18px;
+    background: #2196F3;
+}
+
+.left-text-bg-color {
+	background: #fff;
+}
+
+
+.right-text-bg1 {
+	background: #8BC34A;
+}
+
+.right-text-bg2 {
+	background: #CDDC39;
+}
+
+.footer-right-text1 {
+	padding: 14px;
+}
+
+.footer-right-text2 {
+	padding: 14px;
+}
+
+
+/*Media Queries*/
+
+
+
+/*Tablet,large-Mobile and Smallmobile*/
+@media only screen and (min-width: 768px) {
+
+	/*header-part*/
+	.input-field {
+		width: 50%;
+	}
+
+	.username span {
+	    padding: 60px;
+	}
+
+	.password span {
+		padding: 62px;
+	}
+
+	/*second-part*/
+	.second-part-center {
+		padding-bottom: 7px;
+	}
+
+	.for-small-mobile {
+		display: block;
+	}
+
+	.for-pc {
+		display: none;
+	}
+
+	/*3rd-part*/
+	.col-4 {
+		width: 100%;
+	}
+
+	.lorem-text {
+		padding: 15px 10px;
+	}
+
+	/*4th-part*/
+	.number {
+		padding: 34px;
+	}
+
+	.col-2 {
+		width: 33.33%;
+	}
+
+	/*footer-part*/
+	.footer-left-text {
+		padding: 5px;
+	}
+	.footer-right-text1 {
+	    padding: 28px;
+	}
+
+	.footer-right-text2 {
+	    padding: 28px;
+	}
+}
+
+/*medium pc*/
+@media only screen and (min-width : 1024px) {
+
+	/*header*/
+	.input-field{
+		width: 81%;
+	}
+
+	.username span {
+	    padding: 0 42px 0 0;
+	}
+
+	.password span {
+	    padding: 0 45px 0 0;
+	}
+
+	/*2nd-part*/
+	.second-part-center {
+	    padding-bottom: 117px;
+	}
+	.for-small-mobile {
+		display: none;
+	}
+	.for-pc {
+		display: block;
+	}
+
+	/*3rd-part*/
+	.col-4 {
+		width: 33.33%;
+	}
+
+	.lorem-text {
+	    padding: 45px 10px;
+	}
+
+	/*4th-part*/
+	.number {
+		padding: 38px;
+	}
+
+	.col-2 {
+		width: 16.66%;
+	}
+
+	/*footer-part*/
+	.col-6 {
+		width: 50%;
+	}
+
+	.footer-left-text {
+		padding: 16px;
+	}
+
+	.footer-right-text1 {
+	    padding: 35px;
+	}
+
+	.footer-right-text2 {
+	    padding: 35px;
+	}
+}
+
+/*large-laptop*/
+@media only screen and (min-width : 1440px) {
+	/*2nd-part*/
+	.second-part-center {
+	    padding-bottom: 43px;
+	}
+
+	.for-small-mobile {
+		display: none;
+	}
+
+	/*footer-part*/
+
+	.footer-right-text1 {
+	    padding: 14px;
+	}
+
+	.footer-right-text2 {
+	    padding: 14px;
+	}
+}
+
+/*large Pc*/
+@media only screen and (min-width : 2560px) {
+	/*header*/
+	.input-field {
+		width: 92%;
+	}
+	/*2nd-part*/
+	.second-part-center {
+	    padding-bottom: 6px;
+	}
+
+	.for-small-mobile {
+		display: none;
+	}
+
+	/*footer-part*/
+
+	.footer-right-text1 {
+	    padding: 4px;
+	}
+
+	.footer-right-text2 {
+	    padding: 4px;
+	}
+
+}
+
+
